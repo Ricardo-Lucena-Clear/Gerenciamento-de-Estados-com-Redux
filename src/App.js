@@ -2,6 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 import Card from './components/Card';
 import Intervalo from './components/Intervalo';
+import Soma from './components/Soma';
+import Sorteio from './components/Sorteio';
+import Media from './components/Media';
+
 
 function App() {
   return (
@@ -12,9 +16,9 @@ function App() {
      
       </div>
       <div className='linha'>
-      <Card title="Card 2" green>X</Card>
-      <Card title="Card 3" blue>Y</Card>
-      <Card title="Card 4" purple>Y</Card>
+      <Media></Media>
+      <Soma></Soma>
+      <Sorteio></Sorteio>
 
       </div>
     </div>
